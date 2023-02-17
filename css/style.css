@@ -111,6 +111,7 @@ img {
 .why-us {
     margin-bottom: 3rem;
 }
+
 .why-us .col-left {
     width: 40%;
 }
@@ -128,13 +129,29 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 @media screen and (max-width:768px) {
-    .container{
+    .container {
         width: 768px;
     }
 }
 
 @media screen and (max-width:480px) {
-    .container{
+    .container {
         width: 480px;
+    }
+
+    .row{
+       flex-wrap: wrap;
+    }
+
+    .why-us{
+        background: rgb(35, 35, 35);
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+    .why-us .col {
+        width: 100%;
+        margin: 2rem;
     }
 }
