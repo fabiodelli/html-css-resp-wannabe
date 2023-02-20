@@ -130,15 +130,12 @@ img {
  ************************************************/
 @media screen and (max-width:768px) {
     .container {
-        width: 768px;
+        width: 100%;
     }
 }
 
 @media screen and (max-width:480px) {
-    .container {
-        width: 480px;
-    }
-
+   
     .row{
        flex-wrap: wrap;
     }
@@ -163,3 +160,10 @@ img {
         margin: 2rem;
     }
 }
+
+/* @media screen and (min-width:769 max-width:768px) {
+    .container {
+        width: 100%;
+    }
+} */
+
